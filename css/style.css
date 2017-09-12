@@ -38,11 +38,15 @@ width: 270px;
 padding: 0px 0px 0px 0px;
 }
 .menu {
-background-color: #D6D6D6;
-margin-top: 13px;
+background-color: white;
+margin: 0px;
 display: block;
 left: 0;
 top: 0;
+}
+.velke, .nav{
+background-color: white;
+padding-bottom: 5px; 
 }
 .kontakt{
 background-color: #333333;
@@ -114,9 +118,9 @@ transform: scaleX(1);
 }
 .menu img{
 position: absolute;
-width: 312px; 
+width: 200px; 
 float: left;
-margin-top: -50px;
+margin-top: -38px;
 margin-left: 30px;
 }
 .house > img{
