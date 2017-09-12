@@ -1,0 +1,340 @@
+body {
+background-color: #D6D6D6;	
+}
+p{
+margin-bottom: 15px;
+font-size: 17px;
+font-weight: 300;
+letter-spacing: 1.5px;
+}
+.menu-item{
+margin-bottom: 5px;
+margin-top: 15px;
+}
+.male{
+display: none;
+}
+h1{
+margin: 40px 0px 40px 0px;
+color: #333333;
+}
+h4{
+font-size: 14px;
+color: #333333;
+	letter-spacing: 0.4px;
+}
+h3{
+font-size: 19px;
+font-weight: 300;
+letter-spacing: 2.5px;
+}
+input{
+width: 250px;
+}
+.spun{
+width: 270px;
+}
+.container-fluid{
+padding: 0px 0px 0px 0px;
+}
+.menu {
+background-color: #D6D6D6;
+margin-top: 13px;
+display: block;
+left: 0;
+top: 0;
+}
+.kontakt{
+background-color: #333333;
+}
+.sticky {
+position: fixed;
+display: block;
+width: 100%;
+left: 0;
+top: 0;
+z-index: 100;
+padding-bottom: 10px;	
+background-color: #333333;
+border-bottom: #F7931E 1px solid;
+border-top: #F7931E 0.5px solid;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.sticky a{
+position: relative;
+display: inline-block;
+float: right;
+margin-right: 30px;
+padding-bottom: 5px;
+border: none;
+color: #D6D6D6 !important;
+font-size: 1em;
+font-weight: 100 !important; 
+letter-spacing: 2px !important;
+}
+.menu a{
+position: relative; 
+color: black;
+text-decoration: none !important;
+display: inline-block;
+float: right;
+margin-right: 30px;
+padding-bottom: 5px;
+font-size: 1em;
+border: none;
+font-weight: 200; 
+letter-spacing: 2px !important;	
+}
+.menu a:hover{
+color: black;
+text-decoration: none;
+}
+
+.menu a:before{
+content: "";
+position: absolute;
+width: 100%;
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: #F7931E;
+visibility: hidden;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+-webkit-transition: all 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;
+}
+.menu a:hover:before{
+visibility: visible;
+-webkit-transform: scaleX(1);
+transform: scaleX(1);
+}
+.menu img{
+position: absolute;
+width: 312px; 
+float: left;
+margin-top: -50px;
+margin-left: 30px;
+}
+.house > img{
+margin-right: -141px;
+margin-left: -142px;
+z-index: 1;	
+}
+.content{
+background-color: white;
+padding: 0px 40px 40px 40px;
+}
+.footer{
+background-color: #333333;
+height: auto;
+color: #eee;
+margin-top: 17px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.pfooty{
+font-size: 1em;
+font-weight: 200; 
+letter-spacing: 2px;
+margin-top: 20px;
+text-align: center;
+}
+.pfooty a{
+color: #eee !important;	
+}
+.fa{
+border-radius: 50px;
+margin: 30px 10px 10px 10px;
+padding: 15px 10px 15px 10px;
+font-size: 40px;
+width: 40px;
+text-align: center;
+text-decoration: none;
+color: #F7931E;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+color: #F7931E;
+text-decoration: none;
+}
+.fa-angle-right{
+margin: 0 0 0 0;
+padding: 0 0 25px 0;	
+}
+.fa-gear{
+margin: 20px 0 0 0;
+padding: 0px 0 25px 0;
+color: #F7931E;	
+}
+.fa-5x{
+font-size: 10em;
+}
+.hyatus{
+background-color: #333333;
+margin: 40px -40px 40px -40px;
+padding: 20px;
+text-align: center;
+}
+.hyatus p, .hyatus h3, .hyatus button {
+-webkit-transition: all 0.3s; /* Safari and Chrome */
+-moz-transition: all 0.3s; /* Firefox */
+-ms-transition: all 0.3s; /* IE 9 */
+-o-transition: all 0.3s; /* Opera */
+transition: all 0.3s
+}
+.hyatus:hover p, .hyatus:hover h3, .hyatus:hover button {
+-webkit-transform:scale(1.1); /* Safari and Chrome */
+-moz-transform:scale(1.1); /* Firefox */
+-ms-transform:scale(1.1); /* IE 9 */
+-o-transform:scale(1.1); /* Opera */
+transform:scale(1.1);
+border-color: #F7931E;
+}
+.hyatus button{
+background: #333333;
+margin-bottom: 15px;
+letter-spacing: 1.5px;	
+
+}
+.hyatus button:hover{
+background: #F7931E
+}
+.divider{
+height: 20px;
+}
+#myBtn {
+display: none; /* Hidden by default */
+position: fixed; /* Fixed/sticky position */
+bottom: 0px; /* Place the button at the bottom of the page */
+right: 0px; /* Place the button 30px from the right */
+z-index: 99; /* Make sure it does not overlap */
+border: none; /* Remove borders */
+outline: none; /* Remove outline */
+background-color: black; /* Set a background color */
+color: #F7931E; /* Text color */
+font-size: 30px;
+cursor: pointer; /* Add a mouse pointer on hover */
+padding: 5px 20px 10px 20px; /* Some padding */
+margin: 10px;
+border-radius: 1px; /* Rounded corners */
+transition: all 0.5s;
+}
+#myBtn:hover {
+background-color: #333333; /* Add a dark-grey background on hover */
+display: none;
+padding: 10px 20px 10px 30px; /* Some padding */
+}
+#myBtn span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+#myBtn span:after {
+font-size: 50px;
+color: #FE0004;
+position: absolute;
+opacity: 0;
+top: 0;
+right: -10px;
+transition: 0.5s;
+}
+#myBtn:hover span {
+padding-right: 40%;
+padding-bottom: 30%;
+}
+#myBtn:hover span:after {
+opacity: 1;
+right: 0;
+}
+.zoom1 img, .zoom2 img, .zoom3 img{
+max-width: 100%;
+-webkit-transition: all 0.3s; /* Safari and Chrome */
+-moz-transition: all 0.3s; /* Firefox */
+-ms-transition: all 0.3s; /* IE 9 */
+-o-transition: all 0.3s; /* Opera */
+ transition: all 0.3s
+}
+.zoom1:hover img, .zoom2:hover img, .zoom3:hover img{
+-webkit-transform:scale(1.1); /* Safari and Chrome */
+-moz-transform:scale(1.1); /* Firefox */
+-ms-transform:scale(1.1); /* IE 9 */
+-o-transform:scale(1.1); /* Opera */
+transform:scale(1.1);
+}
+.stavba{
+margin: 40px -40px 40px -40px;
+float: left;
+}
+.stavba img{
+width: 100%
+}
+.img-wrapper {
+width: 117%;
+display: inline-block;
+overflow: hidden;
+}
+.img-wrapper img {
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;
+transition: all .2s ease;
+vertical-align: middle;
+}
+.img-wrapper img:hover {
+-webkit-transform:scale(1.1); /* Safari and Chrome */
+-moz-transform:scale(1.1); /* Firefox */
+-ms-transform:scale(1.1); /* IE 9 */
+-o-transform:scale(1.1); /* Opera */
+transform:scale(1.1);
+}
+input.btn.btn-default{
+width: 100%;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+background-color: #eeeeee;
+color: #333333;
+cursor: pointer;
+padding: 18px 18px 18px 40px;
+width: 100%;
+text-align: left;
+border: none;
+outline: none;
+transition: 0.4s;
+font-size: 17px;
+font-weight: 300;
+letter-spacing: 0.5px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+background-color: #D6D6D6;
+}
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+background-color: white;
+display: none;
+padding: 10px 60px 10px 60px;
+}
+button.accordion:after {
+content: '\02795'; /* Unicode character for "plus" sign (+) */
+font-size: 13px;
+color: #777;
+float: right;
+margin-left: 5px;
+}
+
+button.accordion.active:after {
+content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.zabezpecime{
+margin: 0px -40px -40px -40px;
+}
+.panel img{
+width: 100%;
+}

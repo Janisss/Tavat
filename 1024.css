@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@media (max-width: 1025px) {
+	#sticker-sticky-wrapper {
+		display: none;
+	}
+	.container-fluid.first-content {
+		padding-top: 70px !important;
+	}
+	p {
+		padding: 2vh 5vw 2vh 5vw !important;
+	}
+	h1 {
+		font-size: 2em !important;
+		padding-top: 3vh !important;
+	}
+	h2 {
+		font-size: 1.4em !important;
+	}
+	h1.title {
+		font-size: 2em;
+		text-align: left;
+	}
+	.fix {
+		height: 70px !important;
+	}
+	.fa-3x {
+		font-size: 2em !important;
+	}
+	.phone {
+		top: 20px !important;
+		right: 20px !important;
+	}
+	.slidebutt {
+		font-size: 1.5em !important;
+	}
+	#testimonials-ul h2 {
+		display: none !important;
+	}
+	.sep {
+		display: none !important;
+	}
+	.bg-slideone {
+		padding: 0 !important;
+	}
+	.max-w {
+		width: 100%;
+	}
+	footer {
+		display: none;
+	}
+	text.counter {
+		line-height: 3;
+	}
+	.testimonials ul li p {
+		margin: 0 !important;
+		font-size: 1em !important;
+	}
+	.selectarrow {
+		margin-top: 0px !important;
+	}
+	.hauptmenu {
+		top: 20px !important;
+		left: 20px !important;
+	}
+	.small-call {
+		display: block !important;
+		z-index: 999;
+	}
+	.big-call {
+		display: none !important;
+	}
+	.nivo-caption{
+		width: 100% !important;
+	}
+	.offer{
+	height: auto !important;
+	}
+	.col-xs-3.location{
+	width: 100% !important;
+	}
+	.col-xs-5.text{
+	width: 100% !important;
+	}
+	.house{
+	display: none;
+	}
+	.menu a{
+		float: right !important;
+		display: block !important ;
+	}
+	.menu img{
+		width: 250px !important;
+		margin-top: -130px !important;
+		position: relative !important;
+		float: left !important
+		
+	}
+	.obrazok img{
+		width: 112% !important;
+	}
+	img{
+		float: left !important;
+		width: 100% !important;
+	}
+	#myBtn{
+		padding: 5px 20px 10px 20px !important;
+	}
+	#myBtn:hover{
+		padding: 5px 20px 10px 30px !important;
+	}
+	.menu-item{
+		padding: 0 !important; 
+		font-size: 13px !important;
+		font-weight: bolder !important;
+	}
+	.sticky{
+		padding-right: 5px !important;
+	}
+	.menu a{
+		margin-right: 10px;
+		margin-left: 10px
+	}
+	.stavba img{
+		width: 100% !important
+	}
+	iframe{
+		width: 100%
+	}
+	.fa-5x{
+		font-size: 3em !important;
+		display: block
+	}
+	.kontakt{
+		height: 130px !important
+	}
+	.img-wrapper{
+		width: 100% !important;
+	}
+
+}

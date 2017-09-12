@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	 <meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>TAVAT</title>
+	 <!-- Bootstrap -->
+	 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	 <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+	 <link href="css/bootstrap-3.3.7.css" rel="stylesheet" type="text/css">
+	 <!-- Optional Bootstrap theme -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	 <link rel="stylesheet" href="./css/style.css">
+	 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	 <!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="1024.css" type="text/css"/>
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css"/>
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+	<!-- <script src="js/bootstrap.js"></script> -->
+	<script src="js/bootstrap-3.3.7.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!--Skriptik na fadeIn/fadeOut menu a gombika-->
+	<script>
+		window.onscroll = function() {scrollFunction();getOut();};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				$(myBtn).fadeIn("2000");
+			} else {
+				$(myBtn).fadeOut("2000");
+			}
+		}
+		function getOut(){
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				$(pic).fadeOut("1200");
+			} else {
+				$(pic).fadeIn("1200");
+			}
+		}
+	</script><!--Skriptik na fadeIn/fadeOut menu a gombika-->
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><span>↑</span></button><!--Gombik na TOP-->
+	
+	<!--horna lista-->
+	<div class="container-fluid kontakt">
+	<div class="container" style="height: 40px;">
+		<div class="row">
+			<div class="col-lg-12">
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<!--MENU-->
+	<div class="container-fluid velke">
+	<div class="menu">
+		<div class="row">
+			<div class="col-lg-12">
+				<img src="img/TAVAT.svg" alt="logo" id="pic"> 
+			</div>
+		</div>
+		<div class="row">
+		<div class="nav" id="nav">
+			<div class="col-lg-12">
+					<p class="menu-item"><a href="#nasapraca" id="two">O nás</a></p>
+					<p class="menu-item"><a href="#stavebnacinnost" id="three">Stavebná činnosť</a></p>
+					<p class="menu-item"><a href="#referencie" id="four">Referencie</a></p>
+					<p class="menu-item"><a href="#kontaktis" id="one">Kontakt</a></p>
+					<!--
+					<p class="menu-item"><a href="#preco" id="five">Prečo TAVAT</a></p>
+					-->
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<hr>	
+	<!--HOUSE-->
+	<div class="container-fluid">
+		<div class="container house">
+			<img src="img/TAVAT.svg" alt="logo">
+			<div class="slider-wrapper theme-default">
+				<div id="slider" class="nivoSlider">     
+					<img src="img/2.jpeg" alt="" /> 
+					<img src="img/3.jpeg" alt="" />
+					<img src="img/AdobeStock_120041408_Preview.jpeg" alt="" />
+					<img src="img/AdobeStock_127754995_Preview.jpeg" alt="" />
+				</div> 
+			</div>
+		</div>
+	</div>
+
+	<!--Jeden container ktory sluzi ako telo celej stranky-->
+	<div class="container content">
+		<!--Header-->
+		<h1 id="nasapraca">O nás</h1>
+
+		<p>Spoločnosť poskytuje komplexné služby v rámci slovenského stavebného trhu. Realizujeme vaše bývanie od úplného počiatku až po kompletné odovzdanie daného projektu.</p>
+		<p>Našim cieľom je uspokojenie potrieb zákazníka pri výstavbe, rekonštrukcii a úpravách objektov, verejných priestranstiev, domov a bytov. Ku každému zákazníkovi pristupujeme osobitne a snažíme sa vyhovieť všetkým vašim požiadavkám za čo najvýhodnejšie ceny.</p>
+		<p>Spokojnosť zákazníkov docieľujeme kvalitnými výkonmi pri použití najmodernejších technológií a najkvalitnejších materiálov.</p>
+		<p>Budeme s vami viesť prvé konzultácie, postaráme sa o bezproblémový priebeh rekonštrukcie, výstavby nového objektu alebo stavebných prác. K vašej spokojnosti vyriešime aj prípadné reklamácie.</p>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="zoom1">
+					<img src="img/AdobeStock_84935858_Preview.jpeg" style="height: 100%; width: 350px; margin-top: 20px;">
+				</div>	
+			</div>
+
+			<div class="col-lg-4">
+				<div class="zoom2">
+					<img src="img/AdobeStock_84063880_Preview.jpeg" style="height: 100%; width: 350px;margin-top: 20px;">
+				</div>	
+			</div>
+
+			<div class="col-lg-4">
+				<div class="zoom3">
+					<img src="img/AdobeStock_45348884_Preview.jpeg" style="height: 100%; width: 350px;margin-top: 20px;">
+				</div>
+			</div>	
+		</div>
+
+		<!--Co ponukame-->
+		<h1>Čo ponúkame</h1>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="spun" style="width: 270px;">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">BÚRACIE PRÁCE A DEMOLÁCIE</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Odstránenie pôvodných stavieb a ich častí bez použitia trhavín.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">PRÍPRAVNÉ PRÁCE</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Výkopové a zemné práce. Úprava terénu pre stavby a v okolí stavby.</p>
+					</div>
+				</div>	
+			</div>
+			<div class="col-lg-4">
+				<div class= "spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">DEMONTÁŽ STREŠNEJ KRYTINY</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Odstránenie strešnej krytiny.</p>
+					</div>
+				</div>
+			</div>												
+		</div>
+	
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">ZHOTOVOVANIE ROZPOČTOV</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Zhotovovanie rozpočtov a kalkulácií stavebných prác.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">USKUTOČŇOVANIE STAVIEB</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Uskutočňovanie jednoduchých, drobných, inžinierskych, pozemných stavieb a ich zmien.</p>
+					</div>
+				</div>
+			</div>		
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">DOKONČOVACIE PRÁCE</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Maliarske, natieračské, sklenárske a tapetovacie práce.</p>
+					</div>
+				</div>
+			</div>												
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">BETONÁRSKE PRÁCE</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Betónovanie a pod.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">MONTÁŽE</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Sadrokartonových dosiek, okenného a dverového tesnenia, markíz, roliet, žalúzií.</p>
+					</div>
+				</div>	
+			</div>
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">IZOLÁCIE</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Izolácie základov proti vode a vlhkosti.</p>
+					</div>
+				</div>											
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">ZATEPĽOVANIE</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Zatepľovanie budov, domov, bytových domov.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">POŽIČOVŇA</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Požičovňa náradia a vibračnej techniky.</p>
+					</div>
+				</div>	
+			</div>
+			<div class="col-lg-4">
+				<div class="spun">
+					<div class="box">
+						<a href="#" target="_self">
+							<span class="icon">
+								<i class="fa fa-gear fa-2x" aria-hidden="true"  style="padding: 0 0 0 0"></i>
+							</span>
+						 <h4 style="display: inline-block;">OBKLADY A DLAŽBY</h4>   	
+						</a>
+						<p style="display: block; margin-left: 44px">Pokládka plávajúcich podláh, pokládka zámkovej dlažby a pod.</p>
+					</div>
+				</div>											
+		</div>
+		</div>
+		
+		<!--<h1>Prečo TAVAT?</h1>
+		
+	
+		<!--Anchor na Kontakt-->
+		<div class="hyatus">
+			<h3 style="color: white;">MÔŽEME VÁM POMÔCŤ?</h3><br><br>
+			<p style="color: white;">Sme otvorení každej požiadavke. Radi využijeme naše<br> skúsenosti vo váš prospech</p><br>
+			<a href="#kontaktis" id="kontakt"><button style="color: white;" type="button" class="btn btn-default">Kontaktujte nás</button></a>	
+		</div>
+
+		<!--Projekty-->
+		<h1 id="stavebnacinnost">Stavebná činnosť</h1>
+		<p>Stavebná činnosť, ktorou sa zaoberáme je zameraná predovšetkým na rekonštrukcie bytových jadier a interiérov bytov a rodinných domov. Našim zákazníkom poskytujeme tieto druhy remeselných prác: obklady, murárske, elektroinštalačné a vodoinštalačné práce. Práce, na základe projektu, alebo návrhu zákazníka oceníme - vypracujeme rozpočet. Všetky práce sú zazmluvnené a ošetrené podľa platného stavebného zákona a obchodného zákonníka.</p>
+
+		<!--Ikonky s cielmi?-->
+			<div class="row" style="text-align: center;">
+			<div class="why1">
+				<div class="col-lg-4" style="margin-left: -20px"><i class="fa fa-question fa-5x" aria-hidden="true" id="01" style="font-size: 10em;"></i>
+				</div></div>
+			<div class="why2">	
+				<div class="col-lg-4" style="margin-left: -35px"><i class="fa fa-pie-chart fa-5x" aria-hidden="true" id="02" style="font-size: 10em;"></i>
+				</div></div>
+			<div class="why3">	
+				<div class="col-lg-4" style="margin-left: -30px"><i class="fa fa-cogs fa-5x" aria-hidden="true" id="03" style="font-size: 10em;"></i>
+				</div></div>
+			</div>
+			
+			<div class="row" style="text-align: center;">
+				<div class="col-lg-4"><h3 id="11">pochopenie Vašich cieľov</h3></div>
+				<div class="col-lg-4"><h3 id="12">komplexné služby</h3></div>
+				<div class="col-lg-4"><h3 id="13">najmodernejšie technológie</h3></div>
+		</div>
+	
+		
+		<!--Zabezpečíme nasledujúce-->
+		<div class="divider"></div>
+		<div class="divider"></div>
+		<div class="divider"></div>
+		<div class="divider"></div>
+		<div class="zabezpecime">
+		<button class="accordion">Stavebné práce</button>
+			<div class="panel">
+		  		<div class="row">
+		  			<div class="col-lg-8">
+		  				<p>Zabezpečíme všetky stavebné práce, vrátane potrebných revízií a skúšok.</p>
+		  			</div>
+		  			<div class="col-lg-4">
+		  			</div>
+		  		</div>
+		 		<div class="row">
+					<div class="col-lg-6">
+						<ul>			
+							<li><p>rekonštrukcia bytov</p></li>
+							<li><p>rekonštrukcia rodinných domov</p></li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<ul>
+							<li><p>rekonštrukcia kúpeľní a bytových jadier</p></li>
+							<li><p>rekonštrukcie obchodných a kancelárskych priestorov</p></li>
+						</ul>	
+					</div>
+				</div>
+			</div>
+
+			<button class="accordion">Konzultačná činnosť</button>
+			<div class="panel">
+		  		<div class="row">
+		  			<div class="col-lg-8">
+		  				<p>Zabezpečíme konzultačnú činnosť aby ste urobili správne rozhodnutia hneď na začiatku. Pripravíme stavbu po technickej, časovej a finančnej stránke</p>
+		  			</div>
+		  			<div class="col-lg-4">
+		  				<img src="img/AdobeStock_117225842_Preview.jpeg">
+		  			</div>
+		  		</div>
+			</div>
+
+			<button class="accordion">Úrady</button>
+			<div class="panel">
+		  		<div class="row">
+		  			<div class="col-lg-10">
+		  				 <p>Zastúpime vás pred úradmi a inštitúciami od začiatku až do konca realizácie.</p>
+		  			</div>
+		  			<div class="col-lg-2">
+		  			</div>
+		  		</div>
+			</div>
+
+			<button class="accordion">Administratíva</button>
+			<div class="panel">
+		  		<div class="row">
+		  			<div class="col-lg-8">
+		  				<p>Papierovačky si vezmeme na starosť. Vybavíme pre Vás všetky povolenia v zmysle platnej legoslatívy od ohlásenia stavby až po vydanie právoplatného stavebného povolenia a zabezpečíme kolaudáciu so všetkými vyjadreniami  a povoleniami.</p>
+		  			</div>
+		  			<div class="col-lg-4">
+		  				<img src="img/AdobeStock_74052212_Preview.jpeg">
+		  			</div>
+				</div>
+			</div>
+			
+			<button class="accordion">Architektúra</button>
+			<div class="panel">
+		  	<div class="row">
+		  		<div class="col-lg-8">
+		  			<p>Vypracujeme architektonické štúdie a projektovú dokumentáciu na všetkých stupňoch.</p>
+		  		</div>
+		  		<div class="col-lg-4">
+		  			
+		  		</div>
+		  	</div>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<div class="divider"></div>
+		<div class="divider"></div>
+
+		<!--Referencie-->
+		<h1 id="referencie">Referencie</h1>
+		<p>V TAVAT je kvalita našich služieb úplne zameraná na spokojnosť zákazníka. Sme presvedčení, že za účelom uspokojenia vašich potrieb musíme najprv pochopiť vaše ciele a uistiť sa že náš tím a naše postupy budú počas celého trvania projektu v súlade s týmito cieľmi. Od začiatku projektu až po jeho koniec je našou úlohou byť pre vás oporou a dobre informovaným partnerom.</p>
+		<div class="container-fluid">
+		<div class="stavba">
+			<div class="img-wrapper">
+			<img src="img/AdobeStock_88075401_Preview.jpeg">
+		</div>
+		</div>	
+		</div>	
+		<!--
+			<div class="row">
+				<div class="col-lg-8">
+					<blockquote class="blockquote">
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+					</blockquote>
+
+					<blockquote class="blockquote">
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+					</blockquote>
+
+					<blockquote class="blockquote">
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+					</blockquote>
+				</div>
+			</div>
+
+	-->
+	<h1>Pre uchádzačov o zamestnanie</h1>
+	<p>Do nášho týmu hľadáme ľudí napr. šofér, žeriavnik, strojník, murár, zvárač .. </p>
+	</div>
+	
+	<!--Koniec container content-->
+
+	<!--footer-->							
+	<div class="container-fluid footer">
+		<div class="container" id="kontaktis">
+				<div class="row">
+					<div class="col-lg-6">
+						<h3>Kontaktujte nás</h3>
+							<form action="post.php" method="post">
+							<div class="form-group">	
+								<input type="text" class="form-control" placeholder="meno/názov firmy" name="name">
+							</div>
+							<div class="form-group">	
+								<input type="text" class="form-control" placeholder="Tel. číslo" name="tel">
+							</div>
+							<div class="form-group">	
+								<input type="text" class="form-control" placeholder="e-mail" name="mail">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="správa" name="msg">
+							</div><br>
+							<div class="form-group">
+								<label>Kontrola</label>
+								<input type="number" class="form-control" placeholder="2+2 = " name="vysledok">
+							</div>	
+							<input type="submit" class="btn btn-default" name="submit">
+						</form>
+					</div>
+					<div class="col-lg-6">
+					<h3>Sídlo</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.0681253668117!2d19.12252735139791!3d48.723289918061845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47153dea46e235d3%3A0x57999db9dbacdb11!2zTWzDoWRlxb5uw61ja2EgNDAzLzQ5LCA5NzQgMDQgQmFuc2vDoSBCeXN0cmljYQ!5e0!3m2!1ssk!2ssk!4v1501665432367" width="550" height="325" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+		</div>
+		<p class="pfooty"><a href="http://brickstone.design" target="new">| Webdesign od Brickstone.Design |</a></p>
+	</div>
+
+	<!--Foooter End-->
+
+	 <!-- Modal -->
+	  <div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog modal-lg">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Kontakt</h4>
+			</div>
+			<div class="modal-body">
+				<h1>Kontaktné údaje...</h1>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
+			</div>
+		  </div>
+		</div>
+	  </div>		
+	  	
+	
+	<script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+		for (i = 0; i < acc.length; i++) {
+    		acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+		
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+			$("button").click(function(){
+    		$(".panel").removeClass("active");
+			});
+        } else {
+            panel.style.display = "block";
+        }
+    	}
+	}
+	</script>
+	<script>
+		$("#one").click(function() {
+		$('html, body').animate({
+		scrollTop: $("#kontaktis").offset().top}, 800);
+	});
+		$("#two").click(function() {
+		$('html, body').animate({
+		scrollTop: $("#nasapraca").offset().top}, 800);
+	});
+		$("#three").click(function() {
+		$('html, body').animate({
+		scrollTop: $("#stavebnacinnost").offset().top}, 800);
+	});
+		$("#four").click(function() {
+		$('html, body').animate({
+		scrollTop: $("#referencie").offset().top}, 800);
+	});
+		$("#five").click(function() {
+		$('html, body').animate({
+		scrollTop: $("#preco").offset().top}, 800);
+	});
+		$("#myBtn").click(function() {
+		$('html, body').animate({
+		scrollTop: $(".kontakt").offset().top}, 800);
+	});
+		$("#kontakt").click(function() {
+		$('html, body').animate({
+		scrollTop: $(".footer").offset().top}, 800);
+	});
+	</script>
+
+	<script>
+	$(document).ready(function() {
+	var stickyNavTop = $('.nav').offset().top;
+
+	var stickyNav = function(){
+	var scrollTop = $(window).scrollTop();
+
+	if (scrollTop > stickyNavTop) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+
+	stickyNav();
+
+	$(window).scroll(function() {
+	  stickyNav();
+	});
+	});
+	</script>
+	
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider({ 
+			effect: 'sliceDownLeft',            // Specify sets like: 'fold,fade,sliceDown' 
+			animSpeed: 1000,                   // Slide transition speed 
+			pauseTime: 5000,                  // How long each slide will show 
+			startSlide: 0,                   // Set starting Slide (0 index) 
+			directionNav: false,            // Next & Prev navigation 
+			controlNav: false,             // 1,2,3... navigation 
+			controlNavThumbs: false,      // Use thumbnails for Control Nav 
+			pauseOnHover: false,         // Stop animation while hovering 
+			manualAdvance: false,       // Force manual transitions 
+			randomStart: true
+			});
+		});
+	</script>
+</body>
+</html>
+
+
