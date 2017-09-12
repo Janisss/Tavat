@@ -46,6 +46,18 @@
 				$(pic).fadeIn("1200");
 			}
 		}
+		// Brickstone.design custom mask with slider effect =)
+		$(document).ready(function() {
+			setTimeout(function() {
+				$(".over-image.four").fadeOut(3000);
+			setTimeout(function() {
+			  $(".over-image.three").fadeOut(3000);
+			setTimeout(function() {
+				$(".over-image.two").fadeOut(3000);
+			  }, 7000);
+			}, 7000);
+		  }, 7000);
+		});
 	</script><!--Skriptik na fadeIn/fadeOut menu a gombika-->
 
 	<button onclick="topFunction()" id="myBtn" title="Go to top"><span>↑</span></button><!--Gombik na TOP-->
@@ -87,10 +99,10 @@
 	<!--MASKA DOM SLIDER-->
 	<div class="container">
 	  <div class="mask">
-		<img class="over-image one" src="https://www.macblog.sk/wp/wp-content/uploads/2017/09/iPhone-8-comparison-with-77Plus-600x362.jpg" alt="">
-		<img class="over-image two" src="https://static.pexels.com/photos/20974/pexels-photo.jpg" alt="">
-		<img class="over-image three" src="https://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" alt="">
-		<img class="over-image four" src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg" alt="">
+		<img class="over-image one" src="img/slider1.jpg" alt="">
+		<img class="over-image two" src="img/slider2.jpg" alt="">
+		<img class="over-image three" src="img/slider3.jpg" alt="">
+		<img class="over-image four" src="img/slider4.jpg" alt="">
 	  </div>
 	</div>
 
