@@ -338,3 +338,17 @@ margin: 0px -40px -40px -40px;
 .panel img{
 width: 100%;
 }
+.mask {
+  width: 100%;
+  height: 507px;
+  -webkit-mask-image: url(http://tavat.sk/a.png);
+  mask-image: url(http://tavat.sk/a.png);
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+img.over-image {
+  width: 1200px;
+  position: absolute;
+}
