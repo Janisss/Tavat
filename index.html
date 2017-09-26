@@ -30,20 +30,13 @@
 	
 	<!--Skriptik na fadeIn/fadeOut menu a gombika-->
 	<script>
-		window.onscroll = function() {scrollFunction();getOut();};
+		window.onscroll = function() {scrollFunction();};
 
 		function scrollFunction() {
 			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 				$(myBtn).fadeIn("2000");
 			} else {
 				$(myBtn).fadeOut("2000");
-			}
-		}
-		function getOut(){
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-				$(pic).fadeOut("1200");
-			} else {
-				$(pic).fadeIn("1200");
 			}
 		}
 		// Brickstone.design custom mask with slider effect =)
@@ -61,7 +54,6 @@
 	</script><!--Skriptik na fadeIn/fadeOut menu a gombika-->
 
 	<button onclick="topFunction()" id="myBtn" title="Go to top"><span>↑</span></button><!--Gombik na TOP-->
-	
 	<!--horna lista-->
 	<div class="container-fluid kontakt">
 	<div class="container" style="height: 40px;">
@@ -76,13 +68,11 @@
 	<div class="container-fluid velke">
 	<div class="menu">
 		<div class="row">
-			<div class="col-lg-12">
-				<img src="img/Tavat_Logo_Header.png" alt="logo" id="pic"> 
-			</div>
-		</div>
-		<div class="row">
 		<div class="nav" id="nav">
-			<div class="col-lg-12">
+			<div class="col-lg-1">
+				<img src="img/Tavat_Logo_Header.png" alt="logo" id="pic">
+			</div>
+			<div class="col-lg-11">
 					<p class="menu-item"><a href="#kontaktis" id="one">Kontakt</a></p>
 					<p class="menu-item"><a href="#referencie" id="four">Referencie</a></p>
 					<p class="menu-item"><a href="#stavebnacinnost" id="three">Stavebná činnosť</a></p>
