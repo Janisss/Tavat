@@ -31,8 +31,8 @@ letter-spacing: 2.5px;
 input{
 width: 250px;
 }
-.spun{
-width: 270px;
+.box{
+width: 100%;
 }
 .container-fluid{
 padding: 0px 0px 0px 0px;
@@ -62,6 +62,17 @@ padding-bottom: 10px;
 background-color: #333333;
 border-bottom: #F7931E 1px solid;
 border-top: #F7931E 0.5px solid;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.sticky img{ 
+display: block;
+width: 90px !important;
+margin-top: 9px !important;
+float: left;
+position: absolute;
 -webkit-transition: all 0.5s ease;
 -moz-transition: all 0.5s ease;
 -o-transition: all 0.5s ease;
@@ -119,9 +130,13 @@ transform: scaleX(1);
 .menu img{
 position: absolute;
 width: 198px; 
-float: left;
 margin-top: -27px;
-margin-left: 30px;
+margin-left: 27px;
+float: left;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
 }
 .house > img{
 margin-right: -141px;
@@ -170,7 +185,7 @@ margin: 0 0 0 0;
 padding: 0 0 25px 0;	
 }
 .fa-gear{
-margin: 20px 0 0 0;
+margin: 0px 0 0 0;
 padding: 0px 0 25px 0;
 color: #F7931E;	
 }
