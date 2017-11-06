@@ -137,6 +137,7 @@ float: left;
 -moz-transition: all 0.5s ease;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
+
 }
 .house > img{
 margin-right: -141px;
