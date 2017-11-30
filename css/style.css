@@ -7,10 +7,6 @@ font-size: 17px;
 font-weight: 300;
 letter-spacing: 1.5px;
 }
-.menu-item{
-margin-bottom: 5px;
-margin-top: 15px;
-}
 .male{
 display: none;
 }
@@ -21,7 +17,7 @@ color: #333333;
 h4{
 font-size: 14px;
 color: #333333;
-	letter-spacing: 0.4px;
+letter-spacing: 0.4px;
 }
 h3{
 font-size: 19px;
@@ -37,53 +33,45 @@ width: 100%;
 .container-fluid{
 padding: 0px 0px 0px 0px;
 }
-.menu {
-background-color: white;
-margin: 0px;
-display: block;
-left: 0;
-top: 0;
-}
-.velke{
-background-color: white;
-padding-bottom: 5px; 
-}
-.company{
-display: none;	
-}
-.ciele{
-display: block;
-}
-.icon_texts{
-display: none;	
-}
-.kontakt{
+.lista{
 background-color: #333333;
+height: 35px;
+}
+.pod{
+background-color: white;
+height: 54px;
+}
+.pod img{ 
+display: block;
+width: 225%;
+float: left;
+position: absolute;
+top: -25px;
+z-index: 20;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.sticky img{
+position: absolute;
+width: 100%; 
+float: left;
+margin-top: 32px;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
 }
 .sticky {
-margin-left: auto;
-margin-right: auto;
 position: fixed;
 display: block;
 width: 100%;
 top: 0;
 left: 0;
 z-index: 100;
-padding-bottom: 10px;	
 background-color: #333333;
-border-bottom: #F7931E 1px solid;
-border-top: #F7931E 0.5px solid;
--webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
--o-transition: all 0.5s ease;
-transition: all 0.5s ease;
-}
-.sticky img{ 
-display: block;
-width: 90px !important;
-margin-top: 9px !important;
-float: left;
-position: absolute;
+border-bottom: #F7931E 3px solid;
 -webkit-transition: all 0.5s ease;
 -moz-transition: all 0.5s ease;
 -o-transition: all 0.5s ease;
@@ -93,11 +81,11 @@ transition: all 0.5s ease;
 position: relative;
 display: inline-block;
 float: right;
-padding-bottom: 5px;
+margin: 0px 0 0px 0px !important;
+padding: 15px 15px 15px 15px;
 border: none;
 color: #D6D6D6 !important;
-font-size: 1em;
-font-weight: 100 !important; 
+font-size: 1.2em; 
 letter-spacing: 2px !important;
 }
 .menu a{
@@ -106,52 +94,32 @@ color: black;
 text-decoration: none !important;
 display: inline-block;
 float: right;
-margin-left: 30px;
-padding-bottom: 5px;
-font-size: 1em;
+margin: 0px 0 -6px 0px;
+padding: 15px 15px 15px 15px;
+font-size: 1.2em;
 border: none;
 font-weight: 200; 
-letter-spacing: 2px !important;	
+letter-spacing: 2px !important;
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease;
 }
 .menu a:hover{
-color: black;
-text-decoration: none;
-}
-
-.menu a:before{
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-bottom: 0;
-left: 0;
 background-color: #F7931E;
-visibility: hidden;
--webkit-transform: scaleX(0);
-transform: scaleX(0);
--webkit-transition: all 0.3s ease-in-out 0s;
-transition: all 0.3s ease-in-out 0s;
-}
-.menu a:hover:before{
-visibility: visible;
--webkit-transform: scaleX(1);
-transform: scaleX(1);
-}
-.menu img{
-position: absolute;
-width: 198px; 
-margin-top: -27px;
-float: left;
 -webkit-transition: all 0.5s ease;
 -moz-transition: all 0.5s ease;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
-
 }
-.house > img{
-margin-right: -141px;
-margin-left: -142px;
-z-index: 1;	
+.company{
+display: none;	
+}
+.ciele{
+display: block;
+}
+.icon_texts{
+display: none;	
 }
 .content{
 background-color: white;

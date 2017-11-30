@@ -25,7 +25,9 @@
 	.icon_texts{
 		display: block;
 	}
-	
+	.pod{
+		display: none
+	}
 	.hyatus{
 		margin: 0px 0px 0px 0px !important;
 	}
@@ -110,9 +112,6 @@
 	.col-xs-5.text{
 	width: 100% !important;
 	}
-	.house{
-	display: none;
-	}
 
 	.obrazok img{
 		width: 112% !important;
@@ -128,17 +127,8 @@
 	#myBtn:hover{
 		padding: 5px 10px 10px 20px !important;
 	}
-	.menu-item{
-		padding: 0 !important; 
-		font-size: 13px !important;
-		font-weight: bolder !important;
-	}
 	.sticky{
 		padding-right: 5px !important;
-	}
-	.menu a{
-		margin-right: 10px;
-		margin-left: 10px
 	}
 	.stavba img{
 		width: 100% !important
@@ -149,9 +139,6 @@
 	.fa-5x{
 		font-size: 3em !important;
 		display: block
-	}
-	.kontakt{
-		display: none;
 	}
 	.velke{
 		display: none;
