@@ -120,13 +120,6 @@
 		
 		width: 100% !important;
 	}
-	#myBtn{
-		font-size: 20px !important;
-		padding: 0px 10px 5px 10px !important;
-	}
-	#myBtn:hover{
-		padding: 5px 10px 10px 20px !important;
-	}
 	.sticky{
 		padding-right: 5px !important;
 	}
@@ -146,32 +139,31 @@
 	.mobil-menu{
 		display: block;
 	}
+	.menu-container{
+		top: -20px;
+		position: fixed;
+		z-index: 1000;
+	}
 	#sticky {
-		padding: 0.5ex;
-		width: 50px;
 		background-color: #333333;
 		color: #F7931E;
-		font-size: 1.5em;
 		border-radius: 0ex;
 	}
-
-	#sticky.stick {
-		margin-top: 0 !important;
-		position: fixed;
-		top: 5px;
-		z-index: 10000;
-	}
 	.fa-bars {
-		background-color: #4CAF50;
-		color: white;
-		padding: 16px;
-		font-size: 16px;
+		padding: 10px 45px 10px 20px;
+		background-color: black !important;
+		font-size: 30px !important;
 		border: none;
 		cursor: pointer;
 	}
 
 	.fa-bars:hover, .fa-bars:focus {
-		background-color: #3e8e41;
+		background-color: #333333 !important;
+		-webkit-transition: all 0.3s; /* Safari and Chrome */
+		-moz-transition: all 0.3s; /* Firefox */
+		-ms-transition: all 0.3s; /* IE 9 */
+		-o-transition: all 0.3s; /* Opera */
+		transition: all 0.5s
 	}
 
 	.dropdown {

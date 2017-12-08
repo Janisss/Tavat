@@ -215,7 +215,7 @@ background-color: black; /* Set a background color */
 color: #F7931E; /* Text color */
 font-size: 30px;
 cursor: pointer; /* Add a mouse pointer on hover */
-padding: 5px 20px 10px 20px; /* Some padding */
+padding: 10px 20px 10px 20px; /* Some padding */
 margin: 10px;
 border-radius: 1px; /* Rounded corners */
 transition: all 0.5s;
@@ -223,7 +223,6 @@ transition: all 0.5s;
 #myBtn:hover {
 background-color: #333333; /* Add a dark-grey background on hover */
 display: none;
-padding: 10px 20px 10px 30px; /* Some padding */
 }
 #myBtn span {
 cursor: pointer;
@@ -239,10 +238,6 @@ opacity: 0;
 top: 0;
 right: -10px;
 transition: 0.5s;
-}
-#myBtn:hover span {
-padding-right: 40%;
-padding-bottom: 40%;
 }
 #myBtn:hover span:after {
 opacity: 1;
