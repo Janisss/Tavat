@@ -125,6 +125,7 @@ display: none;
 background-color: white;
 padding: 0px 40px 40px 40px;
 }
+
 .footer{
 background-color: #333333;
 height: auto;
@@ -195,7 +196,6 @@ border-color: #F7931E;
 background: #333333;
 margin-bottom: 15px;
 letter-spacing: 1.5px;	
-
 }
 .hyatus button:hover{
 background: #F7931E
@@ -258,15 +258,8 @@ max-width: 100%;
 -o-transform:scale(1.1); /* Opera */
 transform:scale(1.1);
 }
-.stavba{
-margin: 40px -40px 40px -40px;
-float: left;
-}
-.stavba img{
-width: 100%
-}
 input.btn.btn-default{
-width: 100%;
+margin: 100px;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
