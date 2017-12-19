@@ -369,9 +369,10 @@ img.over-image {
 }
 .modal-body{
 background-color: #333333;
-text-align: center;
+
 }
 .modal-body p{
 font-size: 3vw;
 color:  #F7931E;
+text-align: center;
 }
