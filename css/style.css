@@ -25,7 +25,7 @@ font-weight: 300;
 letter-spacing: 2.5px;
 }
 input{
-width: 250px;
+width: 100%;
 }
 .box{
 width: 100%;
@@ -260,6 +260,7 @@ transform:scale(1.1);
 }
 input.btn.btn-default{
 margin: 100px;
+text-align: center;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
