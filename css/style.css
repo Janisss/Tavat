@@ -247,6 +247,46 @@ transition: 0.5s;
 opacity: 1;
 right: 0;
 }
+#myBtn2 {
+display: none; /* Hidden by default */
+position: fixed; /* Fixed/sticky position */
+bottom: 0px; /* Place the button at the bottom of the page */
+left: 0px; /* Place the button 30px from the right */
+z-index: 99; /* Make sure it does not overlap */
+border: none; /* Remove borders */
+outline: none; /* Remove outline */
+background-color: black; /* Set a background color */
+color: #F7931E; /* Text color */
+font-size: 30px;
+cursor: pointer; /* Add a mouse pointer on hover */
+padding: 10px 20px 10px 20px; /* Some padding */
+margin: 10px;
+border-radius: 1px; /* Rounded corners */
+transition: all 0.5s;
+}
+#myBtn2:hover {
+background-color: #333333; /* Add a dark-grey background on hover */
+display: none;
+}
+#myBtn2 span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+#myBtn2 span:after {
+font-size: 50px;
+color: #FE0004;
+position: absolute;
+opacity: 0;
+top: 0;
+right: -10px;
+transition: 0.5s;
+}
+#myBtn2:hover span:after {
+opacity: 1;
+right: 0;
+}
 .zoom1 img, .zoom2 img, .zoom3 img{
 max-width: 100%;
 -webkit-transition: all 0.3s; /* Safari and Chrome */
@@ -326,4 +366,12 @@ img.over-image {
 }
 .mobil-menu{
 	display: none;
+}
+.modal-body{
+background-color: #333333;
+text-align: center;
+}
+.modal-body p{
+font-size: 3vw;
+color:  #F7931E;
 }

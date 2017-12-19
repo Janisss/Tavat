@@ -37,8 +37,10 @@
 		function scrollFunction() {
 			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 				$(myBtn).fadeIn("2000");
+				$(myBtn2).fadeIn("2000");
 			} else {
 				$(myBtn).fadeOut("2000");
+				$(myBtn2).fadeOut("2000");
 			}
 		}
 		// Brickstone.design custom mask with slider effect =)
@@ -56,7 +58,7 @@
 	</script><!--Skriptik na fadeIn/fadeOut menu a gombika-->
 
 	<a href="#" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-menu-up"></span></a><!--Gombik na TOP-->
-	
+	<a href = "#myKontakt" class="btn" data-toggle="modal" id="myBtn2"><span class="glyphicon glyphicon-info-sign"></span></a>
 	
 		<script>
 		/* When the user clicks on the button, 
@@ -464,21 +466,15 @@
 
 	<!--Foooter End-->
 
-	 <!-- Modal -->
-	  <div class="modal fade" id="myModal" role="dialog">
-		<div class="modal-dialog modal-lg">
+	  <!-- Modal kontakt-->
+	  <div class="modal fade" id="myKontakt" role="dialog">
+		<div class="modal-dialog">
+		  <!-- Modal content-->
 		  <div class="modal-content">
-			<div class="modal-header">
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			  <h4 class="modal-title">Kontakt</h4>
-			</div>
 			<div class="modal-body">
-				<h1>Kontaktné údaje...</h1>
+			 <p><span class="glyphicon glyphicon-phone"></span> 0900 890 780</p>
 			</div>
-			<div class="modal-footer">
-			  <button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
-			</div>
-		  </div>
+			</div>	
 		</div>
 	  </div>		
 	  	
