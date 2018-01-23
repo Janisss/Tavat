@@ -8,8 +8,9 @@ font-weight: 300;
 letter-spacing: 1.5px;
 }
 .kuso{
-overflow: hidden;
-width: 100% !important;
+width: 1170px !important;
+
+margin-left: -40px;
 }
 .male{
 display: none;

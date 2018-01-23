@@ -29,7 +29,10 @@
 		display: none
 	}
 	.hyatus{
-		margin: 0px 0px 0px 0px !important;
+		margin: 0px 0px 40px 0px !important;
+	}
+	.hyatus p, h3, a{
+		text-align: center;
 	}
 	.zabezpecime{
 		width: 100%;
@@ -191,4 +194,10 @@
 
 	.show {display:block;}
 	.stavba{width: 110.3% !important;}
+	.kuso{
+		width: 100% !important;
+		height: 100% !important;
+		margin-left: 0px !important;
+		background-color: red;
+		}
 	}
