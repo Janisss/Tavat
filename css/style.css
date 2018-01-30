@@ -372,7 +372,7 @@ img.over-image {
 background-color: #333333;
 
 }
-.modal-body p{
+.modal-body, .modal-body a{
 font-size: 3vw;
 color:  #F7931E;
 text-align: center;
